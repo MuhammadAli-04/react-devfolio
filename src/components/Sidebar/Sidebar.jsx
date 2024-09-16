@@ -9,7 +9,7 @@ import { Divider } from '../Divider/Divider'
 
 export const Sidebar = () => {
     return (
-        <div className="sidebar bg-dark-secondary rounded-xl h-100 p-10 flex-container align-center flex-column">
+        <div className="sidebar bg-dark-secondary rounded-xl h-100 p-8 flex-container align-center flex-column">
             <Memoji/>
             <h1 className='name text-center py-5 font-weight-normal'>Muhammad Ali</h1>
             <Skill title={"Web Developer"} />

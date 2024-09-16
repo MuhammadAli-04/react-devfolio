@@ -8,6 +8,6 @@ export const Heading = ({title}) => {
 
 export const Subheading = ({title}) => {
     return (
-        <h2 className='subheading'>{title}</h2>
+        <h2 className='subheading text-center'>{title}</h2>
     )
 }
