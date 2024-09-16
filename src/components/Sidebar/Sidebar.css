@@ -1,3 +1,9 @@
 .sidebar {
-    flex-grow: 2;
+  max-width: 250px;
+  flex-grow: 2;
+}
+
+.name {
+  font-size: 1.25rem;
+  letter-spacing: 1px;
 }

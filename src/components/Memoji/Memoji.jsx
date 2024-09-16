@@ -3,7 +3,9 @@ import './Memoji.css'
 
 const Memoji = () => {
   return (
-    <img src={memoji} alt="my avatar" className='memoji'/>
+    <div className='memoji bg-dark-tertiary p-2 rounded-lg'>
+      <img src={memoji} alt="my avatar" width={'50px'}  />
+    </div>
   )
 }
 

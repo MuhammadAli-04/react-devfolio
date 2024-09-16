@@ -16,23 +16,24 @@
   height: 100%;
   width: 100%;
 
-  --bg-dark-primary : #1a1a1a;
-  --bg-dark-secondary : #474747;
-  --bg-dark-tertiary : #8f8f8f;
+  --bg-dark-primary: #242424;
+  --bg-dark-secondary: #474747;
+  --bg-dark-tertiary: #8f8f8f5b;
 
-  --text-dark-primary : #1a1a1a;
-  --text-dark-secondary : #474747;
-  --text-dark-tertiary : #8f8f8f;
+  --text-dark-primary: #1a1a1a;
+  --text-dark-secondary: #474747;
+  --text-dark-tertiary: #8f8f8f;
 }
 
-
-body, #root {
+body,
+#root {
   height: 100%;
   width: 100%;
 }
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 button {
